@@ -77,13 +77,18 @@ Funding period: 30 minutes 13 seconds
 
 The major error with the crowdsale token distribution is caused by the price for SNGLS being set to a number 10x too high. See the **SNGLS** worksheet within [results/TokenCardICODistribution.xlsx](results/TokenCardICODistribution.xlsx) for the details.
 
+
 ### DGD Does Not Have A x10 Error
 
 The post [TokenCard Tech Roundup and ERC20 Crediting](http://vessenes.com/tokencard-tech-roundup-and-erc20-crediting/) stated:
 
 > DGD has nine zeros of decimals, and true to form I see nine.setString(10e9) -- we were consistently wrong at least!
 
-From my analysis, all DGD contributions were credited with the correct amounts (with the exception of the bonus factor issue).
+From my analysis, all DGD contributions were credited with the correct amounts (with the exception of the bonus factor issue). Following are the DGD contributions where there was only a single contribution from each account and it shows the DGD contributions were correctly calculated:
+
+![images/TokenCardDGDContributions.png](images/TokenCardDGDContributions.png)
+
+You can view the same data in the spreadsheet by selecting Count = 1 and Ccy = DGD.
 
 ### Bonus Factor Issue
 
